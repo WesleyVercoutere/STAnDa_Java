@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox alignment="CENTER_LEFT" styleClass="background-grey" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gilbos.standa.frontend.controller.MenuBarController">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" styleClass="border-menu">
+            <children>
+                <HBox spacing="20.0">
+                    <children>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#openFiles" text="Open files" />
+                                <Label />
+                            </children>
+                        </VBox>
+                  <VBox alignment="CENTER" spacing="5.0">
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#openFolder" text="Open folder" />
+                        <Label />
+                     </children>
+                  </VBox>
+                    </children>
+                    <padding>
+                        <Insets left="10.0" right="10.0" />
+                    </padding>
+                </HBox>
+                <Label text="General" textFill="#8c8c8c" />
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" spacing="10.0" styleClass="border-menu">
+            <children>
+                <HBox spacing="20.0">
+                    <children>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <ComboBox fx:id="cBoxSmarTwistId" prefWidth="150.0" />
+                                <Label text="SmarTwist ID" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <ComboBox fx:id="cBoxRecipe" prefWidth="150.0" />
+                                <Label text="Recipe" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <ComboBox fx:id="cBoxType" prefWidth="150.0" />
+                                <Label text="Type" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <ComboBox fx:id="cBoxSpeed" prefWidth="150.0" />
+                                <Label text="Speed" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <Label text="Chart" textFill="#8c8c8c" />
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </VBox>
+        <VBox alignment="CENTER" spacing="10.0">
+            <children>
+                <HBox spacing="20.0">
+                    <children>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#exportData" text="Export" />
+                                <Label />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#flowErrors" text="Flow Errors" />
+                                <Label />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#calculateSTCAverage" text="STC Average" />
+                                <Label />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <Label text="Data" textFill="#8c8c8c" />
+            </children>
+            <HBox.margin>
+                <Insets left="10.0" />
+            </HBox.margin>
+        </VBox>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</HBox>

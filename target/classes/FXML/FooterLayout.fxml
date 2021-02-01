@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="50.0" minHeight="50.0" prefHeight="50.0" styleClass="background-grey" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gilbos.standa.frontend.controller.FooterController">
+    <children>
+      <HBox prefHeight="50.0" prefWidth="422.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <children>
+                    <Label fx:id="lblFooter" text="Label">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+    </children>
+    <padding>
+        <Insets left="20.0" right="20.0" />
+    </padding>
+</AnchorPane>

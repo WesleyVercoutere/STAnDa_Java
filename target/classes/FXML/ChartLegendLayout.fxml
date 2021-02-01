@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane minWidth="350.0" prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gilbos.standa.frontend.controller.ChartLegendController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="50.0" layoutY="50.0" spacing="20.0" styleClass="background-grey" stylesheets="@../css/styles.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="50.0">
+            <children>
+                <Label text="Legend Machine Numbers">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <VBox>
+                    <children>
+                        <CheckBox fx:id="toggleAll" mnemonicParsing="false" text="Toggle All" />
+                    </children>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                </VBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" style="-fx-background-color: #e6e6e6;">
+              <content>
+                      <VBox fx:id="paneForCheckBoxes" spacing="10.0" style="-fx-background-color: #e6e6e6;" stylesheets="@../css/styles.css">
+                          <padding>
+                              <Insets left="20.0" />
+                          </padding>
+                      </VBox>
+              </content>
+            </ScrollPane>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

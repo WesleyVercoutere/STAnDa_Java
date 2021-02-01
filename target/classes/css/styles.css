@@ -1,0 +1,109 @@
+.background-grey {
+    -fx-background-color: #e6e6e6;
+}
+
+.border-menu {
+    -fx-border-color: #8c8c8c;
+    -fx-border-width: 0 1 0 0;
+}
+
+.button {
+    -fx-background-radius: 0;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-pref-height: 20;
+    -fx-pref-width: 150;
+    -fx-font-size: 18;
+    -fx-cursor: hand;
+    -fx-focus-traversable: false;
+}
+
+.button:disabled {
+    -fx-background-color: #868e96;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004a99;
+}
+
+.combo-box
+{
+    -fx-background-radius: 0;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-pref-height: 20;
+    -fx-pref-width: 150;
+    -fx-font-size: 18;
+    -fx-cursor: hand;
+    -fx-focus-traversable: false;
+}
+
+.chart-plot-background {
+    -fx-background-color: white;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #262626;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #262626;
+}
+
+.zoom_line { -fx-stroke: #e6e6e6; }
+
+.line_width { -fx-stroke-width: 3px; }
+
+.Tack1_machine1 { -fx-stroke: #f3622d; }
+.Tack2_machine1 { -fx-stroke: #f3622d; }
+.TwistS_machine1 { -fx-stroke: #f3622d; }
+.TwistZ_machine1 { -fx-stroke: #f3622d; }
+
+.Tack1_machine2 { -fx-stroke: #fba71b; }
+.Tack2_machine2 { -fx-stroke: #fba71b; }
+.TwistS_machine2 { -fx-stroke: #fba71b; }
+.TwistZ_machine2 { -fx-stroke: #fba71b; }
+
+.Tack1_machine3 { -fx-stroke: #57b757; }
+.Tack2_machine3 { -fx-stroke: #57b757; }
+.TwistS_machine3 { -fx-stroke: #57b757; }
+.TwistZ_machine3 { -fx-stroke: #57b757; }
+
+.Tack1_machine4 { -fx-stroke: #41a9c9; }
+.Tack2_machine4 { -fx-stroke: #41a9c9; }
+.TwistS_machine4 { -fx-stroke: #41a9c9; }
+.TwistZ_machine4 { -fx-stroke: #41a9c9; }
+
+.Tack1_machine5 { -fx-stroke: #4258c9; }
+.Tack2_machine5 { -fx-stroke: #4258c9; }
+.TwistS_machine5 { -fx-stroke: #4258c9; }
+.TwistZ_machine5 { -fx-stroke: #4258c9; }
+
+.Tack1_machine6 { -fx-stroke: #9a42c8; }
+.Tack2_machine6 { -fx-stroke: #9a42c8; }
+.TwistS_machine6 { -fx-stroke: #9a42c8; }
+.TwistZ_machine6 { -fx-stroke: #9a42c8; }
+
+.Tack1_machine7 { -fx-stroke: #c84164; }
+.Tack2_machine7 { -fx-stroke: #c84164; }
+.TwistS_machine7 { -fx-stroke: #c84164; }
+.TwistZ_machine7 { -fx-stroke: #c84164; }
+
+.Tack1_machine8 { -fx-stroke: #888888; }
+.Tack2_machine8 { -fx-stroke: #888888; }
+.TwistS_machine8 { -fx-stroke: #888888; }
+.TwistZ_machine8 { -fx-stroke: #888888; }
+
+.highlight {
+    -fx-stroke: #404040;
+    -fx-stroke-width : 3px;
+}
+
+.check-box {
+    -fx-font-size: 16;
+}
+
